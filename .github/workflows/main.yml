@@ -14,3 +14,6 @@ jobs:
 
       - name: Say hello
         run: echo "Hello, CI/CD works!"
+        
+      - name: Show files
+        run: ls -la
